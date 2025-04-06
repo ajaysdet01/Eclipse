@@ -10,6 +10,7 @@ public class SecondClass {
         this.number = number;
     }
 
+    
     // Method to display the number
     public void displayNumber() {
         System.out.println("Number from SecondClass: " + number);

@@ -8,7 +8,6 @@ public class p2Class {
     // Instance variable
      int number;
 
-
     // Method to display the number
     public void displayNumber() {
         System.out.println("Number from SecondClass: " + number);

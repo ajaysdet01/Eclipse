@@ -5,7 +5,6 @@ public class p1Class {
     // Instance variable
     public String message;
 
-   
 
     // Method to display the message
     public void displayMessage() {
