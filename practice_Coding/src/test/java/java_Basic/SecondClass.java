@@ -1,5 +1,5 @@
 // SecondClass.java
-package part1;
+package java_Basic;
 
 public class SecondClass {
     // Instance variable

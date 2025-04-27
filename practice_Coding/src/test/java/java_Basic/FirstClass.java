@@ -1,5 +1,5 @@
 // FirstClass.java
-package part1;
+package java_Basic;
 
 public class FirstClass {
     // Instance variable
