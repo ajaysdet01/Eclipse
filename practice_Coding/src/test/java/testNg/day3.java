@@ -22,7 +22,7 @@ public class day3 {
 		System.out.println(" adv search");
 	}
 
-	@Test(priority = 2)
+	@Test(priority = 2,invocationCount = 5,threadPoolSize = 5)
 	void m2() {
 		System.out.println("search");
 	}

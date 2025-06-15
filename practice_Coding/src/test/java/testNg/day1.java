@@ -20,7 +20,7 @@ public class day1 {
 		System.out.println("buy mobile");
 		
 	}
-	@Test(priority=4)
+	@Test()
 	void a1() {
 		System.out.println("logout");
 		
