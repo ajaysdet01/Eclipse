@@ -10,8 +10,10 @@ public class FrequencyChar {
         Map<Character, Integer> freqMap = new LinkedHashMap<>();
 
         for (char ch : name.toCharArray()) {
+        	
             if (freqMap.containsKey(ch)) {
                 int count = freqMap.get(ch);
+                
                 freqMap.put(ch, count + 1);
             } else {
                 freqMap.put(ch, 1);

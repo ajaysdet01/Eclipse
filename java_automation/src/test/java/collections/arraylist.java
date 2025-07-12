@@ -13,6 +13,9 @@ public class arraylist {  // class name should start with uppercase by conventio
         list.add("Mango");
         list.add("Banana");
         list.add("Apple");
+        list.add("carrot");
+        list.add("egg");
+        list.add("pineapple");
 
         System.out.println("Original List: " + list);
 
@@ -24,10 +27,19 @@ public class arraylist {  // class name should start with uppercase by conventio
         for (String s : list) {
             System.out.println(s);
         }
+        
+        //for loop 
+        for(int i=0;i<list.size();i++){
+        	
+        	System.out.println(list.get(i));
 
+        }
+        
         // Remove by value
         list.remove("Apple");
         System.out.println("After removing 'Apple': " + list);
+        
+        list.removeAll(Arrays.asList("a"));
 
         //Remove by index
         list.remove(0);

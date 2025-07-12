@@ -20,6 +20,7 @@ public class Maps1 {
 	    System.out.println(map.get("India"));
 	    
 	    map.remove("USA");
+	    
 	    System.out.println(map);
 	    
 	    System.out.println(map.containsKey("UK"));

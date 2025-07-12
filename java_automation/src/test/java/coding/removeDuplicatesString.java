@@ -21,12 +21,17 @@ public class removeDuplicatesString {
 					
 		}}
 		
+		System.out.println(ss);
+		System.out.println(ss.toString());
+		
 	/* Type 2 */
 		
 		String name2 = "AJAY";
 		
 		Set ss2 = new LinkedHashSet<>();
 		
+		
+		//for(String i:name2)()
 		for(char i:name2.toCharArray()) {
 			
 			ss2.add(i);
@@ -36,7 +41,7 @@ public class removeDuplicatesString {
 		
 		
 		
-		System.out.println(ss.toString());
+	
 	}
 
 }
